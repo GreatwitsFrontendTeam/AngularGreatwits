@@ -1,0 +1,23 @@
+<div id="wrapper" class="body blue">
+<app-header></app-header>
+<!-- <app-home></app-home> -->
+<router-outlet></router-outlet>
+<div id="panel">
+    <div id="panel-admin">
+        <div class="panel-admin-box">
+            <div id="tootlbar_colors">
+                <button class="color" style="background-color:#1abac8;" (click)="mytheme(0)"></button>
+                <button class="color" style="background-color:#ff8a00;" (click)="mytheme(1)"> </button>
+                <button class="color" style="background-color:#b4de50;" (click)="mytheme(2)"> </button>
+                <button class="color" style="background-color:#e54e53;" (click)="mytheme(3)"> </button>
+                <button class="color" style="background-color:#1abc9c;" (click)="mytheme(4)"> </button>
+                <button class="color" style="background-color:#159eee;" (click)="mytheme(5)"> </button>
+            </div>
+        </div>
+
+    </div>
+    <a class="open" (click)="openClicked()" href="#"><span><i class="fa fa-gear fa-spin"></i></span></a>
+</div>
+<app-footer></app-footer>
+
+</div>
