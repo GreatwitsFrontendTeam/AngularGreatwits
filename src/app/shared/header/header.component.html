@@ -1,0 +1,111 @@
+       <section id="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-7 col-xs-7 top-header-links">
+                    <ul class="contact_links">
+                        <li><i class="fa fa-phone"></i><a href="#">+91-730-357-9861</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="#">business@greatwits.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-5 social">
+                    <ul class="social_links">
+                        <li><a target="_blank" href="https://www.facebook.com/greatwitsOfficial/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://in.linkedin.com/company/greatwits"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="skype:jitendrakukreja1?chat"><i class="fa fa-skype"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="">
+                            <h1 [routerLink]="['/home']" style="outline: none;">Greatwits</h1><span>Services Pvt Ltd</span>
+                        </a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse navbar-right">
+                            <ul class="nav navbar-nav" id="nav-bar">
+                                <li class="active menu" [routerLink]="['/home']" style="outline: none;">
+                                    <a href="">Home</a>
+                                </li>
+                                    <li class="menu" [routerLink]="['/services']" style="outline: none;"><a>Services</a>
+                                    <ul class="menu-dropdown">
+                                       <span style = "display:flex">
+                                         <span class="span01">
+                                        <li class="" [routerLink]="['/web-application-development']" ><i class="fa fa-angle-right" aria-hidden="true"></i>Web App Development</li>
+                                        <li [routerLink]="['/mobile-application-development']"><i class="fa fa-angle-right" aria-hidden="true"></i>Mobile App Development</li>
+                                        <li [routerLink]="['/outsource-software-product-development']"><i class="fa fa-angle-right" aria-hidden="true"></i>Software Product Development</li>
+                                       </span>
+                                       <span class="span02">
+                                        <li class = "" [routerLink]="['/cross-platform-app']"><i class="fa fa-angle-right" aria-hidden="true"></i>Cross-Platform Development</li>
+                                        <li [routerLink]="['/dev-ops-development']"><i class="fa fa-angle-right" aria-hidden="true"></i>DevOps Engineering</li>
+                                        <li [routerLink]="['/it-strategy-consulting-firms']"><i class="fa fa-angle-right" aria-hidden="true"></i>IT Strategy & Consulting</li>
+                                    </span>
+                                    </span>
+                                    </ul>
+                                </li>
+                                <li class="menu"><a href="#">Hire developers</a>
+                                    <ul class="menu-dropdown">
+                                        <span style = "display:flex">
+                                         <span class="span01">
+                                         <li id="dropdown-list-heading">Mobility</li>
+                                         <li class = "" [routerLink]="['/hire-ios-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>iOS</li>
+                                         <li [routerLink]="['/hire-Android-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>Android</li>
+                                         <li [routerLink]="['/hire-reactnative-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>React Native</li>
+                                         <li [routerLink]="['/hire-ionic-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>Ionic</li>
+                                        </span>
+                                        <span class="span02">
+                                         <li id="dropdown-list-heading">Web & Full Stack</li>
+                                         <li [routerLink]="['/hire-reactjs-developers']" class = ""><i class="fa fa-angle-right" aria-hidden="true"></i>ReactJS</li>
+                                         <li [routerLink]="['/hire-angularjs-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>Angular</li>
+                                         <li [routerLink]="['/hire-mern-stack-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>MERN Stack</li>
+                                         <li [routerLink]="['/hire-mean-stack-developer']"><i class="fa fa-angle-right" aria-hidden="true"></i>MEAN Stack</li>
+                                        </span>
+                                        <span class="span03">
+                                                <li id="dropdown-list-subHeading"></li>
+                                                <li [routerLink]="['/hire-nodejs-developers']" class = ""><i class="fa fa-angle-right" aria-hidden="true"></i>NodeJS</li>
+                                                <li [routerLink]="['/hire-vuejs-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>VueJS</li>
+                                                <li [routerLink]="['/hire-frontend-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>Front-End</li>
+                                                <li [routerLink]="['/hire-devops-developers']"><i class="fa fa-angle-right" aria-hidden="true"></i>DevOps</li>
+                                               </span>
+                                     </span>
+                                     </ul>
+                                </li>
+                                <li class="menu"><a href="#">Industries</a>
+                                    <ul class="menu-dropdown">
+                                            <span style = "display:flex">
+                                                    <span class="span01">
+                                                    <li [routerLink]="['/banking-financial-services']"><i class="fa fa-angle-right" aria-hidden="true"></i>Banking & Finance</li>
+                                                    <li class="menu" [routerLink]="['/automotive-software-development']" ><i class="fa fa-angle-right" aria-hidden="true"></i>Automotive</li>
+                                                    <li [routerLink]="['/logistic-transportation-software-development']"><i class="fa fa-angle-right" aria-hidden="true"></i>Logistics & Transportaion</li>
+                                                   </span>
+                                                   <span class="span02">
+                                                    <li [routerLink]="['/retail-ecommerece-software-development']"><i class="fa fa-angle-right" aria-hidden="true"></i>Retail & eCommerce</li>
+                                                    <li [routerLink]="['/edu-elearning-software-development']"><i class="fa fa-angle-right" aria-hidden="true"></i>Education & E-Learning</li>
+                                                    <li [routerLink]="['/media-software-development']"><i class="fa fa-angle-right" aria-hidden="true"></i>Media & Entertainment</li>
+                                                   </span>
+                                                </span>
+                                     </ul></li>
+                                <li class="menu" [routerLink]="['/about']" >About</li>
+                                <li class="menu" [routerLink]="['/portfolio']">Portfolio</li>
+                                <li class="menu" [routerLink]="['/contacts']">Contact</li>
+                            </ul>
+                        </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </nav>
+    </header>
